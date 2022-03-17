@@ -17,6 +17,9 @@ using UnityEngine;
 // Class contains everything in the script
 public class HelloWorld : MonoBehaviour
 {
+
+    public string runMessage = "Big Snail Time... :)";
+
     void MyFunction()
     {
 
@@ -27,7 +30,7 @@ public class HelloWorld : MonoBehaviour
     // -----------------------------------------------------------
     void Start()
     {
-        Debug.LogError("BIG SNAIL TIME");
+        Debug.LogError(runMessage);
     }
 
     // -----------------------------------------------------------
